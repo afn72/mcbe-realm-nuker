@@ -5,7 +5,7 @@ const code = 'DfyUr2y4AAbEYsc'
 const client = bedrock.createClient({
   username: 'bot1',
   skinData: {
-    PersonaPieces: [],
+    PersonaPieces: [], // old method, got patched as of 1.21.61
     ThirdPartyName: 'spoof name',
     ThirdPartyNameOnly: true
   },
